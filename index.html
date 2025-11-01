@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="SARHome">
+    <meta property="og:description" content="Aplicaciones y servicios eléctricos">
+    <meta property="og:image" content="assets/home.svg">
+    <title>SAR Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="output.css">
+    <link rel="icon" href="assets/home.svg">
+</head>
+<body>
+    <header id="inicio">
+        <div class=" flex flex-col min-h-dvh justify bg-gradient-to-l from-primary to-gradient-aux relative z-10 overflow-hidden text-white">
+            <div id="particles-js"></div>
+            <nav class="flex flex-col md:flex-row md:justify-end fixed min-w-full z-10 bg-black" id="menu">
+                <input type="checkbox" id="check" hidden>
+                <label class="block md:hidden p-4 pl-5 text-2xl" for="check" id="checkbtn">
+                    <i class="fa-solid fa-bars" id="solid-icon"></i>
+                </label>
+                <div class="flex flex-col md:flex-row px-4 items-center overflow-hidden max-h-0 md:max-h-min" id="menu-toggle">
+                    <a href="#inicio" class="p-6 md:py-4 text-xs tracking-[0.25rem] lg:px-8 hover:text-gray-400 transition-colors">INICIO</a>
+                    <a href="#nosotros" class="p-6 md:py-4 text-xs tracking-[0.25rem] lg:px-8 hover:text-gray-400 transition-colors">NOSOTROS</a>
+                    <a href="#servicios" class="p-6 md:py-4 text-xs tracking-[0.25rem] lg:px-8 hover:text-gray-400 transition-colors">SERVICIOS</a>
+                    <a href="#galeria" class="p-6 md:py-4 text-xs tracking-[0.25rem] lg:px-8 hover:text-gray-400 transition-colors">GALERIA </a>
+                    <a href="#contacto" class="p-6 md:py-4 text-xs tracking-[0.25rem] hover:text-gray-400 transition-colors">CONTACTO</a>
+                </div>
+            </nav>
+            <div class="flex flex-col flex-1 justify-center items-center md:items-start gap-6 text-white select-none px-0 md:px-32">
+                <div class="space-y-1 text-center px-6">
+                    <h1 class="text-5xl font-light tracking-[0.4rem]">SAR HOME</h1>
+                    <p class="text-sm tracking-[0.8rem] text-white/60">SOLUTIONS</p>
+                </div>
+                <a href="#nosotros" class="px-8 py-3 border border-white/40 text-white/90 hover:bg-white/10 hover:text-white hover:border-white transition-all duration-300 tracking-[0.3rem] text-xs">CONOCENOS</a>
+            </div>
+        </div>
+    </header>
+    <section class="flex flex-col md:flex-col items-center p-6" id="nosotros">
+        <h2 class="text-2xl font-light tracking-widest mb-6 mt-3 text-center">NOSOTROS</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10 w-full max-w-6xl m-10 mt-0">
+            <div class="flex flex-col gap-6 text-center items-center">
+                <h4 class="text-lg font-light tracking-widest">ACERCA DE</h4>
+                <p class="text-gray-700">
+                    SARHome Solutions es una organización mexicana que nació en 2025 con el objetivo de brindar servicios eléctricos en la zona metropolitana del país, siendo 100% de origen politécnico.
+                </p>
+            </div>
+            <div class="flex flex-col gap-5 text-center items-center">
+                <h4 class="text-lg font-light tracking-widest">MISION</h4>
+                <p class="text-gray-700">
+                    Ofrecer servicios eléctricos residenciales de alta calidad, seguros y funcionales, empleando métodos y tecnologías de vanguardia para satisfacer las necesidades de nuestros clientes con confianza y eficiencia aplicando las normatividades vigentes.
+                </p>
+            </div>
+            <div class="flex flex-col gap-5 text-center items-center">
+                <h4 class="text-lg font-light tracking-widest">VISION</h4>
+                <p class="text-gray-700">
+                    Consolidarnos como una empresa líder en servicios eléctricos residenciales a nivel nacional, reconocida por la innovación, seguridad y confianza que ofrecemos a nuestros clientes.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="flex flex-col bg-gradient-to-r from-primary to-gradient-aux text-white items-center px-6 py-0" id="servicios">
+        <h2 class="text-2xl font-light tracking-widest p-6 text-center">SERVICIOS</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-6xl m-10 mt-0">
+            <div class="flex flex-col text-center items-center p-6 gap-4">
+                <svg width="40px" height="40px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#ffffff">
+                    <path d="M6 9V19C6 20.1046 6.89543 21 8 21H17C18.1046 21 19 20.1046 19 19V14" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"></path>
+                    <path d="M9 5.6V7C9 8.10457 8.10457 9 7 9H5C3.89543 9 3 8.10457 3 7V5.6C3 5.26863 3.26863 5 3.6 5H8.4C8.73137 5 9 5.26863 9 5.6Z" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"></path>
+                    <path d="M4 5V3" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"></path>
+                    <path d="M8 5V3" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"></path>
+                    <path d="M18.1667 4L16.5 7H20.5L18.8333 10" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+                <h3 class="text-lg font-normal">INSTALACION Y CABLEADO DE CAJAS PRINCIPALES Y DERIVADAS</h3>
+                <p class="text-white/80 text-sm">
+                    Realizamos el cableado completo de la caja principal y las derivadas, asegurando que cada circuito funcione de manera segura y cumpla con las normas eléctricas.
+                </p>
+            </div>
+            <div class="flex flex-col text-center items-center p-6 gap-4">
+                <svg width="40px" height="40px" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 2H4a1 1 0 0 0-1 1v18a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1Z"></path>
+                    <path d="M17.5 5h-11v4.5h11V5Z"></path>
+                    <path d="m6 14 3.5 3.5"></path>
+                    <path d="M9.5 14 6 17.5"></path>
+                    <path d="M14 17.5h4"></path>
+                    <path d="M14 14.5h4"></path>
+                </svg>
+                <h3 class="text-lg font-normal">CALCULO DE POTENCIA Y AMPERAJE DE CIRCUITOS Y PASTILLAS TERMOMAGNETICAS</h3>
+                <p class="text-white/80 text-sm">
+                    Determinamos la capacidad electrica necesaria para cada circuito y pastilla, garantizando eficiencia y prevencion de sobrecargas.
+                </p>
+            </div>
+            <div class="flex flex-col text-center items-center p-6 gap-4">
+                <svg width="40px" height="40px" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg" color="#ffffff">
+                    <path d="M21 3.6V20.4C21 20.7314 20.7314 21 20.4 21H3.6C3.26863 21 3 20.7314 3 20.4V3.6C3 3.26863 3.26863 3 3.6 3H20.4C20.7314 3 21 3.26863 21 3.6Z" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18Z" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M15.5 7.5L12 12" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+                <h3 class="text-lg font-normal">INSTALACION DE LUMINARIAS</h3>
+                <p class="text-white/80 text-sm">
+                    Colocamos todo tipo de luminarias y apagadores, adaptandonos a las necesidades de iluminacion de cada espacio del hogar.
+                </p>
+            </div>
+            <div class="flex flex-col text-center items-center p-6 gap-4">
+                <svg width="40px" height="40px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#ffffff">
+                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M9 10V14" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M15 10V14" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+                <h3 class="text-lg font-normal">INSTALACION DE TOMACORRIENTES Y DISPOSITIVOS DE ALIMENTACION</h3>
+                <p class="text-white/80 text-sm">
+                    Instalamos tomacorrientes y otros dispositivos electricos, asegurando que esten ubicados estrategicamente y funcionen correctamente.
+                </p>
+            </div>
+            <div class="flex flex-col text-center items-center p-6 gap-4">
+                <svg width="40px" height="40px" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 6H4a1 1 0 0 0-1 1v13a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1Z"></path>
+                    <path d="M8.975 12.004h6"></path>
+                    <path d="m3 6.5 3.5-4h11l3.5 4"></path>
+                </svg>
+                <h3 class="text-lg font-normal">CONEXION DE CAJAS DE DISTRIBUCION</h3>
+                <p class="text-white/80 text-sm">
+                    Conectamos las cajas de distribucion derivadas de forma segura, garantizando un flujo electrico estable y confiable.
+                </p>
+            </div>
+            <div class="flex flex-col text-center items-center p-6 gap-4">
+                <svg width="40px" height="40px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#ffffff">
+                    <path d="M21 2L20 3" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M3 2L4 3" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M21 16L20 15" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M3 16L4 15" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M9 18H15" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M10 21H14" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M11.9998 3C7.9997 3 5.95186 4.95029 5.99985 8C6.02324 9.48689 6.4997 10.5 7.49985 11.5C8.5 12.5 9 13 8.99985 15H14.9998C15 13.0001 15.5 12.5 16.4997 11.5001L16.4998 11.5C17.4997 10.5 17.9765 9.48689 17.9998 8C18.0478 4.95029 16 3 11.9998 3Z" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+                <h3 class="text-lg font-normal">INSTALACION DE LUCES LED DECORATIVAS Y FOCOS DE SOBREPONER</h3>
+                <p class="text-white/80 text-sm">
+                    Colocamos luces LED decorativas y focos de sobreponer para mejorar la estetica y eficiencia de los espacios, sin comprometer la funcionalidad.
+                </p>
+            </div>
+            <div class="flex flex-col text-center items-center p-6 gap-4">
+                <svg width="40px" height="40px" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg" color="#ffffff">
+                    <path d="M10.0503 10.6066L2.97923 17.6777C2.19818 18.4587 2.19818 19.7251 2.97923 20.5061V20.5061C3.76027 21.2872 5.0266 21.2872 5.80765 20.5061L12.8787 13.4351" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M17.1927 13.7994L21.071 17.6777C21.8521 18.4587 21.8521 19.7251 21.071 20.5061V20.5061C20.29 21.2872 19.0236 21.2872 18.2426 20.5061L12.0341 14.2977" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M6.73267 5.90381L4.61135 6.61092L2.49003 3.07539L3.90424 1.66117L7.43978 3.78249L6.73267 5.90381ZM6.73267 5.90381L9.5629 8.73404" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M10.0503 10.6066C9.2065 8.45359 9.37147 5.62861 11.111 3.8891C12.8505 2.14958 16.0607 1.76778 17.8285 2.82844L14.7878 5.86911L14.5052 8.98015L17.6162 8.69754L20.6569 5.65686C21.7176 7.42463 21.3358 10.6349 19.5963 12.3744C17.8567 14.1139 15.0318 14.2789 12.8788 13.435" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+                <h3 class="text-lg font-normal">DIAGNOSTICO Y REPARACION DE FALLAS ELECTRICAS COMUNES</h3>
+                <p class="text-white/80 text-sm">
+                    Detectamos y solucionamos problemas como cortocircuitos, falsos contactos o fallas a tierra, asegurando que la instalacion vuelva a funcionar correctamente.
+                </p>
+            </div>
+            <div class="flex flex-col text-center items-center p-6 gap-4">
+                <svg width="40px" height="40px" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg" color="#ffffff">
+                    <path d="M2 8L11.7317 3.13416C11.9006 3.04971 12.0994 3.0497 12.2683 3.13416L22 8" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M20 11V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V11" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+                <h3 class="text-lg font-normal">MANTENIMIENTO PREVENTIVO Y CORRECTIVO DE INSTALACIONES ELECTRICAS RESIDENCIALES</h3>
+                <p class="text-white/80 text-sm">
+                    Revisamos y corregimos cualquier detalle en la instalacion electrica, previniendo problemas futuros y manteniendo la seguridad del hogar.
+                </p>
+            </div>
+            <div class="flex flex-col text-center items-center p-6 gap-4">
+                <svg width="40px" height="40px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#ffffff">
+                    <path d="M21.1679 8C19.6247 4.46819 16.1006 2 11.9999 2C6.81459 2 2.55104 5.94668 2.04932 11" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M17 8H21.4C21.7314 8 22 7.73137 22 7.4V3" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M2.88146 16C4.42458 19.5318 7.94874 22 12.0494 22C17.2347 22 21.4983 18.0533 22 13" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M7.04932 16H2.64932C2.31795 16 2.04932 16.2686 2.04932 16.6V21" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+                <h3 class="text-lg font-normal">ACTUALIZACION DE CAJAS DE FUSIBLES A CAJAS CON PASTILLAS TERMOMAGNETICAS</h3>
+                <p class="text-white/80 text-sm">
+                    Modernizamos cajas de fusibles tradicionales a sistemas con pastillas termomagneticas, aumentando la seguridad y confiabilidad del circuito.
+                </p>
+            </div>
+            <div class="flex flex-col text-center items-center p-6 gap-4">
+                <svg width="40px" height="40px" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 2H6a4 4 0 1 0 0 8h12a4 4 0 0 0 0-8Z"></path>
+                    <path d="M18 14H6a4 4 0 0 0 0 8h12a4 4 0 0 0 0-8Z"></path>
+                    <path d="M18 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"></path>
+                    <path d="M6 19a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"></path>
+                </svg>
+                <h3 class="text-lg font-normal">CAMBIO DE SWITCHES Y CONTACTOS ELECTRICOS</h3>
+                <p class="text-white/80 text-sm">
+                    Sustituimos o actualizamos interruptores y tomacorrientes para mejorar funcionalidad, seguridad y apariencia del hogar.
+                </p>
+            </div>
+            <div class="flex flex-col text-center items-center p-6 gap-4">
+                <svg width="40px" height="40px" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg" color="#ffffff">
+                    <path d="M7 14C5.34315 14 4 15.3431 4 17C4 18.6569 5.34315 20 7 20C7.35064 20 7.68722 19.9398 8 19.8293" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M4.26392 15.6046C2.9243 14.9582 2.00004 13.587 2.00004 12C2.00004 10.7883 2.53877 9.70251 3.38978 8.96898" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M3.42053 8.8882C3.1549 8.49109 3 8.01363 3 7.5C3 6.11929 4.11929 5 5.5 5C6.06291 5 6.58237 5.18604 7.00024 5.5" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M7.23769 5.56533C7.08524 5.24215 7 4.88103 7 4.5C7 3.11929 8.11929 2 9.5 2C10.8807 2 12 3.11929 12 4.5V20" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M8 20C8 21.1046 8.89543 22 10 22C11.1046 22 12 21.1046 12 20" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M12 7C12 8.65685 13.3431 10 15 10" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M20.6102 8.96898C21.4612 9.70251 22 10.7883 22 12C22 12.7031 21.8186 13.3638 21.5 13.9379" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M20.5795 8.8882C20.8451 8.49109 21 8.01363 21 7.5C21 6.11929 19.8807 5 18.5 5C17.9371 5 17.4176 5.18604 16.9998 5.5" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M12 4.5C12 3.11929 13.1193 2 14.5 2C15.8807 2 17 3.11929 17 4.5C17 4.88103 16.9148 5.24215 16.7623 5.56533" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M14 22C12.8954 22 12 21.1046 12 20" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M18.6667 16L17 19H21L19.3333 22" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+                <h3 class="text-lg font-normal">ADECUACIONES PARA CASAS INTELIGENTES</h3>
+                <p class="text-white/80 text-sm">
+                    Integramos sistemas de automatizacion residencial que permiten controlar iluminacion y dispositivos de forma inteligente y comoda.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="flex flex-col items-center px-6 py-0 pb-6" id="galeria">
+        <h2 class="text-2xl font-light tracking-widest p-6 text-center">NUESTRO TRABAJO</h2>
+
+        <!-- Mensaje temporal -->
+        <div class="flex flex-col gap-3 items-center justify-center w-full max-w-5xl h-64 border-2 border-dashed border-gray-400 rounded-xs bg-gray-50 dark:bg-neutral-900 dark:border-neutral-700 text-center p-8">
+            <p class="text-gray-600 dark:text-gray-300 text-lg tracking-widest">PROXIMAMENTE</p>
+            <p class="text-gray-500 dark:text-gray-400 text-sm">Estamos preparando una selección de nuestros mejores trabajos.</p>
+        </div>
+        <!--Contenedor oculto temporalmente
+        <div class="grid gap-4 w-full max-w-5xl grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 auto-rows-[10rem]">
+            <div class="overflow-hidden rounded-xs">
+                <img src="assets/imagen1.jpg" class="w-full h-full object-cover">
+            </div>
+        </div> -->
+    </section>
+    <footer class="bg-gradient-to-b from-primary to-gradient-aux text-gray-400 py-6" id="contacto">
+        <div class="container mx-auto px-4 flex flex-col gap-6 items-center">
+            <div>
+                <h2 class="text-xl tracking-[0.3rem]">SAR HOME</h2>
+            </div>
+            <div>
+                <p class="font-light"><span class="font-normal tracking-widest">EMAIL: </span><a href="mailto:alanubf2018@gmail.com">correo@gmail.com</a></p>
+                <p class="font-light"><span class="font-normal tracking-widest">TELEFONO: </span>+52 56 6278 7577</p>
+            </div>
+            <div class="flex p-4 w-[90%] justify-center border-gray-500 border-y">
+                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="flex m-1 mx-6 size-10 justify-center items-center transition-colors rounded-xs">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="flex m-1 mx-6 size-10 justify-center items-center transition-colors rounded-xs">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer" class="flex m-1 mx-6 size-10 justify-center items-center transition-colors rounded-xs">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+            </div>
+            <p class="text-sm text-center">
+                &copy; 2025 Alan Bf. Todos los derechos reservados.
+            </p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="libs/particles.min.js"></script>
+    <script src="libs/particles.js"></script>
+</body>
+</html>

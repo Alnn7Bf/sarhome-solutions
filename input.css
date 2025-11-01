@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #031926;
+    --color-secondary: #0b344a;
+    --color-blur: #000b;
+    --color-gradient-aux: color-mix(in srgb, var(--color-primary) 20%, #000 90%);
+    --color-gradient-bg: linear-gradient();
+    --color-bg: #e2ecf7;
+}
+
+html {
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
+    background-color: var(--color-bg);
+}
+
+.banner {
+    background-color: #e2ecf7;
+}
+
+#particles-js {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0%;
+}
+
+#menu:has(#check:checked) {
+    background: var(--color-blur) !important;
+    backdrop-filter: blur(4px) !important;
+}
+
+#menu {
+    animation: section-navbar;
+    animation-timeline: scroll();
+    animation-fill-mode: both;
+}
+
+@keyframes section-navbar{
+    0% {
+        background: #0000;
+        backdrop-filter: blur(0);
+    }
+    7% {
+        background: #0000;
+        backdrop-filter: blur(0);
+    }
+    13% {
+        background: var(--color-blur);
+        backdrop-filter: blur(4px);
+    }
+    100% {
+        background: var(--color-blur);
+        backdrop-filter: blur(4px);
+    }
+}
+
+#check:checked ~ div {
+    min-height: 100dvh;
+}
+
+@media (width >= 48rem) {
+    #menu:has(#check:checked) {
+        background: transparent !important;
+        backdrop-filter: blur(0) !important;
+    }
+
+    @keyframes section-navbar{
+        0% {
+            background: #0000;
+            backdrop-filter: blur(0);
+        }
+        15% {
+            background: #0000;
+            backdrop-filter: blur(0);
+        }
+        25% {
+            background: var(--color-blur);
+            backdrop-filter: blur(4px);
+        }
+        100% {
+            background: var(--color-blur);
+            backdrop-filter: blur(4px);
+        }
+    }
+
+    #check:checked ~ div {
+        min-height: auto;
+    }
+}
